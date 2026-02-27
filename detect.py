@@ -93,7 +93,7 @@ while True:
 
     # Check for 'q' key to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        break;
+        break
 
 # Release video capture and close windows
 video.release()
